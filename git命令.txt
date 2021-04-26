@@ -1,0 +1,28 @@
+git config --global user.name 'cwsffm' 
+git config --global user.email '1293540568@qq.com'
+git config --list 查看信息
+clear 清屏
+
+创建文件夹：   mkdir 文件夹名字
+进入文件夹：   cd 文件夹名字
+初始化仓库：   git init
+仓库创建文件：touch a.jsp
+查看文件状态：git status
+文件加入暂存：git add 文件
+提交到仓库：   git commit -m'提交描述信息'
+查看历史记录：git reflog
+版本穿梭：      git reset -hard
+
+vi 进入文件插入信息
+ESC->:wq 退出
+git cat 查看文件信息
+
+第一步：rm -rf a.jsp 删除仓库
+第二步：git rm a.jsp 从仓库删除文件
+第三步：git rm commit -m '提交删除描述'
+
+git clone 仓库地址
+
+yy复制
+p粘贴
+
