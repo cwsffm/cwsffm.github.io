@@ -14,7 +14,7 @@ clear 清屏
 版本穿梭：      git reset -hard
 
 vi 进入文件插入信息
-ESC->:wq 退出
+ESC-> :wq 退出
 git cat 查看文件信息
 
 第一步：rm -rf a.jsp 删除仓库
