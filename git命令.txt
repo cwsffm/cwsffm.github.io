@@ -1,4 +1,4 @@
-git config --global user.name 'cwsffm' 
+git config --global user.name 'Seek' 
 git config --global user.email '1293540568@qq.com'
 git config --list 查看信息
 clear 清屏
@@ -9,13 +9,23 @@ clear 清屏
 仓库创建文件：touch a.jsp
 查看文件状态：git status
 文件加入暂存：git add 文件
+所有文件更改加入暂存区:git add -A
 提交到仓库：   git commit -m'提交描述信息'
 查看历史记录：git reflog
-版本穿梭：      git reset -hard
+版本穿梭：      git reset -hard 版本号
+查看文件信息：git cat 文件名
+查看文件内容：vim 文件名
+修改文件内容：                 -> i
 
-vi 进入文件插入信息
+创建分支：git branch 分支名
+查看分支：git branch -v
+切换分支：git checkout 分支名
+把指定的分支合并到当前分支上：git merge 分支名
+
+查看别名：          git remote -v
+远程库创建别名：git remote add 别名 远程库地址
+
 ESC-> :wq 退出
-git cat 查看文件信息
 
 第一步：rm -rf a.jsp 删除仓库
 第二步：git rm a.jsp 从仓库删除文件
